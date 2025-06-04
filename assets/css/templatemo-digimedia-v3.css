@@ -2102,15 +2102,14 @@ responsive
   }
 
   .faq .accordion-button {
+    border-radius: 23px;
     font-weight: 600;
     font-size: 1.1rem;
-    border-radius: 35px;
     overflow: hidden;
   }
   .faq .accordion-button:not(.collapsed) {
-    border-radius: 35px !important;
     background-color: #f1f1f1;
     color: #000;
   }
-    
+
 }

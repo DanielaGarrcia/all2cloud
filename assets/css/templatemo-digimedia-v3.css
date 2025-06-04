@@ -2104,19 +2104,13 @@ responsive
   .faq .accordion-button {
     font-weight: 600;
     font-size: 1.1rem;
-  }
-  .faq .accordion-button:not(.collapsed) {
-    background-color: #f1f1f1;
-    color: #000;
-  }
-
-  .accordion-item {
     border-radius: 35px;
     overflow: hidden;
   }
-
-  .accordion-button {
+  .faq .accordion-button:not(.collapsed) {
     border-radius: 35px !important;
+    background-color: #f1f1f1;
+    color: #000;
   }
-
+    
 }
